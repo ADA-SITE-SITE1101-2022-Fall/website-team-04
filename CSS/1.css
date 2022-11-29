@@ -1,0 +1,48 @@
+body {
+    background-image:  url(https://www.ada.edu.az/frq-templates/assets/content_img/Student-Center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.team{
+    color:blue;
+}
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight:bold;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+.pendir{
+    display: flex;
+    justify-content: space-between;
+}
+.pendir nav {
+    width: 30%%;
+}
+.pendir
