@@ -1,11 +1,8 @@
 body {
-  background-image: url("https://images.hdqwalls.com/download/landscape-sunset-minimal-4k-2y-2932x2932.jpg");
+  background-image: url("..//media/Hoc_col.JPEG");
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-}
-body {
-  background-color: blueviolet;
 }
 
 nav {
@@ -13,8 +10,8 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-align: center;
-  background-color: rgba(255, 178, 102, 0.2);
-  border: 2px solid white;
+  background-color: rgba(178, 102, 255, 0);
+  border: 2px solid rgba(146, 146, 146, 1);
   position: relative;
   bottom: 18px;
   right: 10px;
@@ -31,8 +28,8 @@ nav ul li {
   border-radius: 75px;
   padding-top: 10px;
   margin: 15px 70px;
-  background-color: transparent;
-  border: 3px solid white;
+  background-color: rgba(146, 146, 146, 0.5);
+  border: 3px solid rgba(146, 146, 146, 1);
 }
 nav ul li a {
   color: black;
@@ -53,40 +50,14 @@ nav ul li:hover::after {
   width: 65%;
 }
 
-main h1 {
+main {
+  color: white;
   text-align: center;
-  color: black;
-  background-color: rgba(255, 165, 0, 0.3);
-  border: 1.5px solid black;
-  border-radius: 750px;
-}
-
-#Avatars img {
+  background-color: rgba(146, 146, 146, 0.7);
   position: relative;
-  top: 40px;
-  display: inline-block;
-  margin: 0 85px;
-  height: 200px;
-  width: 200px;
-}
-
-table {
-  position: relative;
-  top: 80px;
-  font-size: large;
-  border: 3px solid white;
-  margin-bottom: 50px;
-}
-
-#about {
+  font-weight: 520;
+  font-size: larger;
   width: 1500px;
-}
-
-thead {
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-tbody {
-  background-color: rgba(0, 0, 0, 0.35);
+  margin: 210px auto;
+  padding: 0.5px 0;
 }

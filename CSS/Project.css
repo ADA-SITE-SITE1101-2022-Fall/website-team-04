@@ -1,20 +1,15 @@
 body {
-  background-image: url(https://www.ada.edu.az/frq-templates/assets/content_img/Student-Center.jpg);
+  background-image: url("https://cdn.wedevs.com/uploads/2021/04/Best-project-management-software-for-web-designers.png  ");
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
 }
-
-.team {
-  color: blue;
-}
 nav {
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-align: center;
-  background-color: rgba(0, 255, 255, 0.2);
-  border: 2px solid white;
+  background-color: rgba(204, 229, 255, 0.2);
+  border: 2px solid rgb(135, 206, 235, 1);
   position: relative;
   bottom: 18px;
   right: 10px;
@@ -32,10 +27,10 @@ nav ul li {
   padding-top: 10px;
   margin: 15px 70px;
   background-color: rgba(135, 206, 235, 1);
-  border: 3px solid white;
+  border: 3px solid black;
 }
 nav ul li a {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: large;
   font-weight: bold;
@@ -44,7 +39,7 @@ nav ul li::after {
   content: "";
   width: 0%;
   height: 2px;
-  background: black;
+  background: rgb(182, 24, 24);
   display: block;
   margin: auto;
   transition: 0.4s;
@@ -53,34 +48,16 @@ nav ul li:hover::after {
   width: 65%;
 }
 
-header {
-  font-family: serif;
-  text-align: center;
-  position: relative;
-  top: 15px;
-  display: block;
+#proj {
+  color: black !important;
+  font-weight: bold !important;
 }
-
-.codeac-logo {
-  margin-right: 150px;
+.main{
+  color: blue;
 }
-
-.github-logo {
-  margin-left: 150px;
+.a{
+  color: rgb(209, 209, 209);
 }
-
-header img {
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-
-header h1 {
-  font-size: 45px;
-  margin-bottom: 5px;
-}
-
-header h2 {
-  position: relative;
-  bottom: 10px;
-  font-weight: lighter;
+.b{
+  color:rgb(175, 11, 11)
 }
